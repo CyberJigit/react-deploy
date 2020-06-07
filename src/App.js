@@ -9,7 +9,7 @@ import Post from './containers/Post';
 
 function App() {
   return (
-    <Router path={process.env.PUBLIC_URL + '/'}>
+    <Router>
       <div className="App">
         <Header />
         <Hero />
