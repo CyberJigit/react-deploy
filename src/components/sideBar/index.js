@@ -36,18 +36,6 @@ const SideBar = (props) => {
 
       <Card>
         <div className="cardHeader">
-          <span>Social Networks</span>
-        </div>
-        <div className="profileImageContainer">
-          <img src={require("../../img/profile-logo.jpg")} alt="about us img" />  
-        </div>
-        <div className="cardBody">
-          <p className="personalBio">My name is... whatever, I am sowtware developer, I am 21 years old, and hmmmm... actually I just need some text to be written here... so well, enough I guess )).</p>
-        </div>
-      </Card>
-
-      <Card>
-        <div className="cardHeader">
           <span>Recent Post</span>
         </div>
         <div className="recentPosts">
