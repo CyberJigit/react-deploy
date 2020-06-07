@@ -8,20 +8,15 @@ import './style.css';
 **/
 
 const Navbar = (props) => {
-
     const [Search, setSearch] = useState(false);
-
     const submitSearch = (e) => {
         e.preventDefault();
         alert("Searched");
     }
-
     const openSearch = () => {
         setSearch(true);
     }
-
     const searchClass = Search ? 'searchInput active' : 'searchInput';
-
   return(
     <div className="navbar">
         <ul className="navbarMenu">
